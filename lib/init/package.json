@@ -1,0 +1,19 @@
+{
+  "name": "NPM_NAME",
+  "version": "1.0.0",
+  "description": "[![NPM version](https://img.shields.io/npm/v/NPM_NAME.svg)](https://www.npmjs.com/package/NPM_NAME)",
+  "main": "index.js",
+  "bin": {},
+  "config": {},
+  "scripts": {
+    "i": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "zc.lee <lzc1384@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}

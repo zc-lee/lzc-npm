@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Alias {
+            constructor(path) {
+                Object.assign(
+                    this, {
+                        '@': '@',
+                        'cwd': 'cwd',
+                        'dir': 'dir',
+                        'set':'set'
+                    }
+                )
+            }
+            set set(param) {
+                let [key, val]=param
+                this[key] = val
+            }
+        }
+
+        let res = new Alias()
+        res.set=['key','val']
+        console.log(res)
+        console.log(Reflect.has(res,'set'))
+        console.log(Object.keys(res))
+    </script>
+</body>
+
+</html>

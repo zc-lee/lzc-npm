@@ -1,0 +1,26 @@
+{
+  "name": "lzc-npm",
+  "version": "1.0.11",
+  "description": "[![NPM version](https://img.shields.io/npm/v/lzc-npm.svg)](https://www.npmjs.com/package/lzc-npm)",
+  "main": "index.js",
+  "bin": {
+    "lnpm": "./bin/index.js"
+  },
+  "config": {},
+  "scripts": {
+    "test": "node index.js",
+    "i": "node lib/init",
+    "b": "node bin"
+  },
+  "keywords": [],
+  "author": "zc.lee <lzc1384@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "lzc-node": "^1.0.4"
+  }
+}
