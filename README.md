@@ -10,6 +10,16 @@ cnpm i -g lzc-npm
 ### commands
 ```javascript
 commands:
- v/version: view version
- init: init a folder about package
+ lnpm v/version: view version
+ lnpm init [name]: init a folder about package
+```
+
+```javascript
+package
+├── lib
+├── .gitignore
+├── .index.js
+├── .package.json
+├── test.js
+└── README.md
 ```
